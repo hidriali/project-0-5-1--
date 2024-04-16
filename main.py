@@ -30,7 +30,7 @@ while True:
     print("The AutoCountry sales manager has authorized the purchase and selling of the following vehicles: ")
 # this program will end the current iteration of the and start from the top of the loop, when the users input is 1.
 
-# this program will read the file and print the contents of the file.
+# this program will read the "test.txt" file and print the contents of the file.
 
     with open("test.txt") as test:
       content_read = test.read()
